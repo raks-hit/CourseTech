@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="styleSheet" href="Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+		rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+        <!-- CSS only -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+
+</head>
+
+<body>
+    <script>
+        function burger(){
+            var a=document.querySelector('.cross')
+            var y=document.querySelectorAll('.line');
+            var x = document.getElementById("ul");
+            var z=document.querySelector('.burger');
+            var dlogo=document.querySelector('#dlogo')
+            var logo=document.querySelector('#logo')
+            var h1=document.querySelector('#h1');
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+    a.style.visibility="hidden"
+    z.style.visibility="visible"
+    dlogo.style.display="block"
+    h1.style.display="block";
+    logo.style.display="none"
+    // mlogo.style.visibility="visible"
+  } else {
+    x.style.display = "flex";
+    // x.style.justifyContent="center"
+    x.style.flexDirection="column"
+    x.style.height="100vh"
+    x.style.backgroundColor="black"
+    // y[0].style.rotate="45deg"
+    // x.style.opacity=1;
+    z.style.visibility="hidden"
+    a.style.visibility="visible"
+    logo.style.display="block";
+    logo.style.margin="0px 1em 0px 0px"
+    dlogo.style.display="none";
+    h1.style.display="none";
+  
+  
+  }
+        }
+        function dev(){
+            var b=document.querySelector('#dev');
+            if(b.style.display==="flex"){
+                b.style.display="none";
+            }
+            else{
+                b.style.display="flex";
+            }
+        }
+    </script>
+
+</script>
+
+    <header class="navbar ">
+        <!-- <div id="head"> -->
+        <!-- <img  id="logo" src="/logo2.jpeg"> -->
+        <!-- <h2 id="th">One stop platform for computer science students</h2> -->
+    <!-- </div> -->
+    <!-- <h2 style="color: white;">Course Tech</h2> -->
+   <div class="dlogoul">
+    <img  id="dlogo" src="./img/logo2.jpeg">
+    <div class="logoul">
+        <ul id="ul" >
+            
+            <img  id="logo" src="./img/logo2.jpeg">
+            
+            <li class="list"><a href="">Home</a></li>
+            <li class="list"><a href="">DSA</a></li>
+            <li class="list"><a href="">CP</a></li>
+            <li class="list"><a href="">Free Courses</a></li>
+            <li class="list"><a href="">Development</a></li>
+            <li class="list"><a href="">Roadmaps</a></li>
+            <li class="list"><a href="">Blogs</a></li>
+            <li class="list"><a href="">Updates</a></li>
+            <li class="list"><a href="">College-Study-Material</a> </li>
+        
+        </ul>
+    </div>
+</div>
+        <!-- <div class="navspace"></div> -->
+        <div id="onimg">
+            <h1 id="h1">Let's Code Together</h1>
+            <!-- <button id="go">Let's GO</button> -->
+           
+        </div>
+        <!-- <img class="bimg" src="./img/img3.jpg"> -->
+        <div class="burger" onclick="burger()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="cross" onclick="burger()" >
+            <div class="line1"></div>
+            <div class="line2"></div>
+            
+        </div>
+  
+  
+</header>
+    <!-- <img id="cn" src="/cn.png"> -->
+    <!-- <img id="pep" src="/pep.png"> -->
+    <!-- <div id="grid">
+        <img  class="set" src="/amazon.png">
+        <img class="set" src="/microsoft.png">
+        <img class="set" src="/wipro.jpeg">
+        <img class="set" src="/google.png">
+        <img class="set" src="/samsung.png">
+    </div> -->
+<content class="content">
+<div class="imglogo">
+    <img src="./img/c-.png" alt="" class="plogo">
+    <img src="./img/css-3.png" alt="" class="plogo">
+    <img src="./img/java.png" alt="" class="plogo">
+    <img src="./img/html-5.png" alt="" class="plogo">
+    <img src="./img/python.png" alt="" class="plogo">
+    <img src="./img/letter-c.png" alt="" class="plogo">
+</div>
+<div class="dream">
+    <h1 id="hd">Our Aim:</h1>
+    <img id ="maang" src="./img/faang1.jpg">
+</div>
+ <div class="create">
+    <div id="journey">
+       
+        <h1 id="hj">Start Your Journey-</h1>
+   </div>
+  
+    <ul id="ut">
+    
+        <li class="tags"><a href="./components/pl.html">Programming Langauges</a></li>
+        <li class="tags"><img class="icon" src="./img/black-plane.png"></li>
+        <li class="tags"><a href="">Data Structures</a></li>
+        <li class="tags"> <img class="icon" src="./img/black-plane.png"></li>
+        <li class="tags"><a href="./a2oj/server/index.html">Competitive programming</a></li>
+        <li class="tags"><img class="icon" src="./img/black-plane.png"></li>
+        <li class="tags" ><a  id="development" onclick="dev()">Development</a></li>
+        <li><div id="dev">
+            <a href="">Web development</a>
+            <a href="">App development</a>
+            <a href="">Machine learning and AI</a>
+            <a href="">Blockchain </a>
+        </div></li>
+        <li class="tags"><img class="icon" src="./img/black-plane.png"></li>
+        <li class="tags"><a href="">Competitive Exams</a></li>
+        <li class="tags"> <img class="icon" src="./img/black-plane.png"></li>
+        <li class="tags"><a href="">College-Study-Material</a> </li>
+        
+   
+    </ul>
+    <!-- <div class="divider"></div> -->
+</div>
+
+
+
+<div class="box">
+    <h1 id="hb">Study Material:</h1>
+    <div class="bgrid">
+    
+        <button class="btnbox ">
+        <h1 class="hbb">Free Courses</h1>
+        <p>Get access to all the quality courses</p>
+    </button>
+    
+    
+        <button class="btnbox ">
+        <h1 class="hbb">Updates</h1>
+        <p>Gets updates of contests ,hackathons and technology</p>
+    </button>
+    
+    
+        <button class="btnbox">
+        <h1 class="hbb">Roadmaps</h1>
+        <p>Want to learn something ?</p>
+            <p>Here we have roadmaps for everything .</p>
+    </button>
+
+    
+        <button class="btnbox">
+        <h1 class="hbb">Blogs</h1>
+        <p>Learn something new with quality content</p>
+    </button>
+    
+        <button class="btnbox">
+        <h1 class="hbb">Important Dates</h1>
+        <p>Stay updated with us for all important upcoming events </p>
+    </button>
+   
+    
+        <button class="btnbox">
+        <h1 class="hbb">Projects</h1>
+        <p>Show some creativity in making </p>
+            <p>projects that shines your resume </p>
+    </button>
+    
+    </div>
+    </div>
+    <div class="ip">
+        <h1 class="hc">Internship and placements:</h1>
+        <div class="ipbox">
+            <div class="ipbc">
+                <h2 class="hip">Opportunties</h2>
+                <p class="pip">We are providing you all the internship and placement opportunities available.So,you can apply to any post you are intereted in.Check the latest opportunities daily. </p>
+                <button class="btnip">Explore</button>
+            </div>
+            <div class="ipbc">
+                <h2 class="hip">Placement material</h2>
+                <p class="pip">Want a placement or internship? If yes then checkout our collection of study material for your preparation. </p>
+                <button class="btnip">Explore</button>
+            </div>
+        </div>
+        </div>
+        <div class="dc">
+            <h1 class="hdc">About us-</h1>
+            <div class="dcbox">
+                <div class="bdc">
+                    <img src="./img/vision.jpeg">
+                    <!-- <h2>Our Vision</h2> -->
+                    <!-- <hr> -->
+                    <div>We want to provide the complete study material for computer science students at one place.Now there is no need to visit different sites. We are providing
+                        everything you require for your college studies and placement at one stop destination.Hope it will be beneficial for you. </div>
+                </div>
+                
+                <!-- <div class="bdc">
+                    <h2>About</h2>
+                    <hr>
+                    <p>As a computer science student we respect your interest and need.We will provide you the best and sufficient material
+                        for your better result.We are working on improving 
+                        ourself  day by day .So  support our little effort for you.
+                    </p>
+                </div> -->
+            
+            </div>
+
+
+        </div>
+    
+</div>
+<div class="creator">
+    <h1 class="hc">Created By-</h1>
+    <div class="cb">
+        <img src="./img/myphoto.jpg" id="photo">
+        <h1>Rakshit</h1>
+        <h2>UIET KUK</h2>
+        <h2>Full Stack Web Developer</h2>
+        <div class="logo">
+            <img src="./img/instagram.png" class="clogo">
+            <img src="./img/linkedin.png" class="clogo">
+            <img src="./img/github.png" class="clogo">
+        </div>
+    </div>
+</div>
+<!-- <hr> -->
+
+<div class="footer">
+    <!-- <img id="flogo" src="./img/logo2.jpeg"> -->
+   <div class="email">
+    <h2>Email us at:</h2>
+    
+    <a href="mailto:coursetechofficial@gmail.com">coursetechofficial@gmail.com</a>
+    </div>
+    <!-- <ul class="fflist">
+        <h2>Our Services:</h2>
+        <li class="flist" ><a href="">Home</a></li>
+        <li class="flist"><a href="">DSA</a></li>
+        <li class="flist"><a href="">CP</a></li>
+        <li class="flist"><a href="">Free Courses</a></li>
+        <li class="flist"><a href="">Development</a></li>
+        <li class="flist"><a href="">Roadmaps</a></li>
+        <li class="flist"><a href="">Blogs</a></li>
+        <li class="flist"><a href="">Updates</a></li>
+        <li class="flist"><a href="">College-Study-Material</a> </li>
+    </ul> -->
+
+    <!-- <div class="cfoot">
+        <div>
+            <h2>Follow us on-</h2>
+            <div class="logo">
+
+            <img src="./img/instagram.png" class="clogo">
+            <img src="./img/linkedin.png" class="clogo">
+            <img src="./img/github.png" class="clogo">
+        </div>
+        </div> -->
+        <!-- <div> -->
+            <!-- <h2>Contact Us-</h2> -->
+            <!-- <p>Room.NO-160,Shaheed bhagat singh hostel</p>
+               <p> kurukshetra University ,Kurukshetra</p> -->
+            <!-- <p>or Email us at:</p>
+                <p>coursetechofficial@gmail.com</p>
+        </div> -->
+       
+    <!-- </div>
+    
+</div> -->
+<!-- <div class="fcopy">@copyright 2022:Course Tech</div> -->
+</content>
+<div id="copyright">
+    <p> &copy; Copyright.All rights reserved</p>
+    <p>Designed with &#128151 for you</p>
+</div>
+
+<script src="/Home.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
+</body>
+</html>

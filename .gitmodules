@@ -1,0 +1,3 @@
+[submodule "a2oj-clientside"]
+	path = a2oj-clientside
+	url = https://github.com/earthshakira/a2oj-clientside
